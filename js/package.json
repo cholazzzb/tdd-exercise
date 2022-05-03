@@ -1,0 +1,14 @@
+{
+  "name": "tdd-exercise-js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "toro",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^28.0.3"
+  }
+}
