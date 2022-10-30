@@ -4,7 +4,7 @@ from sol_1155 import Solution
 sol = Solution()
 
 
-class TestStringMethods(unittest.TestCase):
+class TestNumRollsToTarget(unittest.TestCase):
     def test_1(self):
         self.assertEqual(sol.numRollsToTarget(1, 6, 3), 1)
 
