@@ -1,5 +1,3 @@
-use std::usize;
-
 struct Solution;
 
 #[allow(dead_code)]
@@ -8,7 +6,7 @@ impl Solution {
         let vowels = vec!['a', 'i', 'u', 'e', 'o', 'A', 'I', 'U', 'E', 'O'];
 
         let mut s: Vec<char> = s.chars().collect();
-        let (mut l, mut r): (usize, usize) = (0, s.len() - 1);
+        let (mut l, mut r) = (0_usize, s.len() - 1);
 
         loop {
             while l < r && !vowels.contains(&s[l]) {
