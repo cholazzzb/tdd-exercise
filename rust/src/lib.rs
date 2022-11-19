@@ -6,6 +6,7 @@ mod no821;
 mod no896;
 mod no941;
 mod no1502;
+mod no1790;
 mod no1822;
 mod no2469;
 mod no2470;
