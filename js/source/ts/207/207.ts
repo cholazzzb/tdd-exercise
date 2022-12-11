@@ -16,8 +16,8 @@ class TopologicalSort {
       const el = queue.shift() as number;
       this.orders.push(el);
       for (const vertice of graph[el]) {
-        if (indegree[vertice] - 1 == 0) {
-          indegree[vertice]--;
+        indegree[vertice]--;
+        if (indegree[vertice] == 0) {
           queue.push(vertice);
         }
       }

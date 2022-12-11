@@ -17,8 +17,8 @@ var TopologicalSort = /** @class */ (function () {
             this.orders.push(el);
             for (var _i = 0, _a = graph[el]; _i < _a.length; _i++) {
                 var vertice = _a[_i];
-                if (indegree[vertice] - 1 == 0) {
-                    indegree[vertice]--;
+                indegree[vertice]--;
+                if (indegree[vertice] == 0) {
                     queue.push(vertice);
                 }
             }
