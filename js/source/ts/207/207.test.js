@@ -1,6 +1,6 @@
 const { canFinish } = require("./207");
 
-describe("test 1971.js", () => {
+describe("test 207.js", () => {
   it("1", () => {
     const numCourses = 2;
     const prerequisites = [[1, 0]];
