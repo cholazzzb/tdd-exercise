@@ -18,6 +18,7 @@ mod no1790;
 mod no1797;
 mod no1822;
 mod no1845;
+mod no1962;
 mod no1971;
 mod no2469;
 mod no2470;
