@@ -13,6 +13,7 @@ mod no896;
 mod no941;
 mod no1603;
 mod no1232;
+mod no1466;
 mod no1502;
 mod no1790;
 mod no1797;
