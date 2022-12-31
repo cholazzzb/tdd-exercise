@@ -16,6 +16,7 @@ mod no1603;
 mod no1232;
 mod no1466;
 mod no1502;
+mod no1654;
 mod no1790;
 mod no1797;
 mod no1822;
